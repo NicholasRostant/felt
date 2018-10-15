@@ -73,7 +73,7 @@ a:active{
 
 }
 /* TIME STYLES */
-#fulltime{
+#datetime{
 	margin:auto;
 	width:230px;
 	text-align:center;
@@ -170,7 +170,7 @@ a:link,
 a:active,
 a:visited,
 .weatherDetail, .weatherHead,
-#fulltime{
+#datetime{
 	color:#fff;
 }
 #bm li a{
