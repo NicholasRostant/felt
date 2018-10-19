@@ -2,7 +2,7 @@
 \*=============================================*/
 
 $(document).ready(function(){		
-	var backgroundUrl = "https://source.unspash.com/collection/1072056"
+	var backgroundUrl = "https://source.unspash.com/random"
 
 	var curD= new Date();
 	var curH= curD.getHours();
