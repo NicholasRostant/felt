@@ -2,12 +2,12 @@
 \*=============================================*/
 
 $(document).ready(function(){		
-	var backgroundUrl = "https://source.unspash.com/random"
+	var backgroundUrl = "https://source.unsplash.com/collection/1072056"
 
 	var curD= new Date();
 	var curH= curD.getHours();
 
-    backgroundUrl = backgroundUrl + '/' + document.documentElement.clientWidth + 'x' + document.documentElement.clientHeight;
+	backgroundUrl = backgroundUrl + '/' + document.documentElement.clientWidth + 'x' + document.documentElement.clientHeight;
 
 	$('body').css({
 		'background-image':'url('+ backgroundUrl +')',
@@ -17,7 +17,7 @@ $(document).ready(function(){
 	
    	//WEATHER
 	var strLoco = "Warwick, UK";
-  loadWeather(strLoco);
+	loadWeather(strLoco);
   
 	function loadWeather(strLoco, woeid){
 	    $.simpleWeather({
