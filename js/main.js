@@ -44,7 +44,7 @@ $(document).ready(function(){
 		var m=today.getMinutes();
 		var s=today.getSeconds();
 		var days = ['Sun','Mon','Tues','Wednes','Thurs','Fri','Satur'];
-		var months = ['Jan','Feb','Mar','Apr','May','Jun','July','Aug','Sep','Nov','Dec'];
+		var months = ['Jan','Feb','Mar','Apr','May','Jun','July','Aug','Sep','Oct','Nov','Dec'];
 		
 		m = checkTime(m);
 		h = checkTime(h);
